@@ -1,0 +1,23 @@
+{
+  "name": "express-exercises",
+  "version": "1.0.0",
+  "description": "working with express to create api's servers",
+  "main": "ping-pong.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo 'test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stall84/express-exercises.git"
+  },
+  "author": "Michael Stallings",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stall84/express-exercises/issues"
+  },
+  "homepage": "https://github.com/stall84/express-exercises#readme"
+}
