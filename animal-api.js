@@ -24,7 +24,8 @@ app.get('/files/rando', (req,res,next) => {
             console.log(`oopsie-woopsie, an error occurred: ${err}`);
             return;
         }
-        res.json({'files': files});
+        
+        res.json({'status': 'ok', 'message': __dirname + '/' + files[3]});
         console.log(files);
         
     }));
