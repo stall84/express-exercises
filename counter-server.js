@@ -8,12 +8,14 @@ app.listen(3000, () => console.log('counter-server listening on localhost:3000')
 
 app.post('/increment', (req,res) => {
     counter ++;
-    res.send('Added 1 to counter');
+    //res.send('Counter has been incremented by 1');
+    res.json(counter);
 })
 
 app.post('/decrement', (req,res) => {
     counter --;
-    res.send('Subtracted 1 from counter');
+    //res.send('Counter has been decremented by 1');
+    res.json(counter);
 })
 
 app.get('/value', (req,res) => {

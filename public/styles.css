@@ -1,0 +1,18 @@
+/* For index.html */
+
+
+.head1 {
+
+    background-color: bisque;
+    text-align: center;
+    margin: 2em;
+    color: red;
+    
+}
+
+div {
+
+    display: flex;
+    flex-direction: row;
+
+} 
