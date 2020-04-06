@@ -25,7 +25,7 @@ app.get('/files/rando', (req,res,next) => {
             return;
         }
         
-        res.json({'status': 'ok', 'message': __dirname + '/' + files[3]});
+        res.json({'status': 'ok', 'message': __dirname + '/' + files[Math.floor(Math.random() * files.length)]});
         console.log(files);
         
     }));
